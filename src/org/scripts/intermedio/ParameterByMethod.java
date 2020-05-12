@@ -33,7 +33,7 @@ public class ParameterByMethod {
         driver.close();
     }
 
-    @Test(dataProvider = "SearchProvider2")
+    @Test(dataProvider = "SearchProvider2")//
     public void testMethodA(String tester, String search) throws InterruptedException {
 
         WebElement searchText = driver.findElement(By.name("q"));
