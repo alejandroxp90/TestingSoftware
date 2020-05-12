@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestingSoftware.iml" filepath="$PROJECT_DIR$/TestingSoftware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proyectoIntMaven/proyectoIntMaven.iml" filepath="$PROJECT_DIR$/proyectoIntMaven/proyectoIntMaven.iml" />
+    </modules>
+  </component>
+</project>
