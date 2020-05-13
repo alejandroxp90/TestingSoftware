@@ -13,7 +13,7 @@ public class Ejemplo014 {
 
     public static void main(String[] args) throws ParseException {
         WebDriver wd;
-        String chromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String chromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         System.setProperty("webdriver.chrome.driver", chromePath);
         wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

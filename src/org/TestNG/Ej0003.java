@@ -11,7 +11,7 @@ import org.testng.annotations.*;
 public class Ej0003 {
 
     public String baseURL = "http://demo.guru99.com/test/newtours/";
-    public String driverPathChrome = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    public String driverPathChrome = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     public String driverPathMozilla = System.getProperty("user.dir") + "\\drivers\\geckodriver.exe";
     public WebDriver driver;
 

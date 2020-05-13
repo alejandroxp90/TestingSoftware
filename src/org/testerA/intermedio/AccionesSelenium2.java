@@ -11,7 +11,7 @@ public class AccionesSelenium2 {
 
     public void xPath(){
 
-        String xRuta = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xRuta = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         String baseURL = "https://www.facebook.com/";
         System.setProperty("webdriver.chrome.driver", xRuta);
         driver = new ChromeDriver();

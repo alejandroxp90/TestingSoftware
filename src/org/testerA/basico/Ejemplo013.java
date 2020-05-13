@@ -12,7 +12,7 @@ import java.text.ParseException;
 import java.util.List;
 
 public class Ejemplo013 {
-    String chromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    String chromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     String baseURL = " http://demo.guru99.com/test/web-table-element.php";
     WebDriver driver;
     String max;

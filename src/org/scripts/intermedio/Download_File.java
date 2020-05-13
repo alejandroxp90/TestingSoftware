@@ -14,7 +14,7 @@ import static org.testng.Assert.assertTrue;
 public class Download_File {
 
     private WebDriver driver;
-    private String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    private String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     private String downloadFilePath = "C:\\Users\\Odinn\\Downloads\\TEST";
 
   @BeforeClass

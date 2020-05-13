@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class Ej0004 {
-    public String driverPathChrome = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    public String driverPathChrome = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     public static final WebDriver webDriver = new ChromeDriver();
 
 

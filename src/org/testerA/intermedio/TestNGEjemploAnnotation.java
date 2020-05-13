@@ -9,7 +9,7 @@ import org.testng.annotations.*;
 
 public class TestNGEjemploAnnotation {
 
-    String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     String expectedResult = "";
     String actualResult ="";
     String baseURL = "http://demo.guru99.com/selenium/newtours/index.php";

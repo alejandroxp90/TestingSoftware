@@ -9,7 +9,7 @@ import org.testng.Assert;
 public class Ejemplo015 {
 
     public static void main(String[] args) throws InterruptedException {
-        String chromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String chromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         String baseUrl = "http://demo.guru99.com/test/social-icon.html";
         System.setProperty("webdriver.chrome.driver", chromePath);
         WebDriver driver = new ChromeDriver();

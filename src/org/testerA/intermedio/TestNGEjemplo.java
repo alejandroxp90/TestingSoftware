@@ -9,7 +9,7 @@ public class TestNGEjemplo {
     private WebDriver driver;
     //EJEMPLO DE UN TESTCASE CON METODO MAIN SIN PROBAR CON TESTNG
     public void cargarDatos(){
-        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         String baseURL = "http://demo.guru99.com/selenium/newtours/index.php";
         System.setProperty("webdriver.chrome.driver", xPath);
         driver = new ChromeDriver();

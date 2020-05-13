@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class DataProviderEjemplo {
-    String xChromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    String xChromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     String baseURL = "https://www.google.com.mx/";
     WebDriver driver;
 

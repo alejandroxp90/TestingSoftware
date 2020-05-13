@@ -10,7 +10,7 @@ public class Ejemplo001 {
 
         WebDriver driver;
 
-        String getPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String getPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         System.setProperty("webdriver.chrome.driver", getPath);
 
 

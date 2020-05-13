@@ -18,7 +18,7 @@ public class CheckLinksTest {
 
         @BeforeClass
         public void beforeClass(){
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe");
             driver = new ChromeDriver();
             page = new CheckLinks(driver);
             driver.get(baseURL);

@@ -12,7 +12,7 @@ public class Ejemplo008 {
 
     public void rutaInicio(){
 
-        String xpath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xpath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         String baseURL = "http://demo.guru99.com/test/newtours/register.php";
         System.setProperty("webdriver.chrome.driver",xpath);
         driver = new ChromeDriver();

@@ -14,7 +14,7 @@ public class UpDownFile {
 
     private WebDriver driver;
     private String baseURL = "http://demo.guru99.com/test/yahoo.html";
-    private String xChromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    private String xChromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
 
     @BeforeClass
     public void beforeClass(){

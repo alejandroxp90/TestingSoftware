@@ -11,7 +11,7 @@ public class Ejemplo003 {
 
         WebDriver driver;
 
-        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         System.setProperty("webdriver.chrome.driver",xPath);
         String baseURL = "http://demo.guru99.com/test/radio.html";
         driver = new ChromeDriver();

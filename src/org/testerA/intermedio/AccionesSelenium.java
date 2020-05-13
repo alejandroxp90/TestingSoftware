@@ -9,7 +9,7 @@ public class AccionesSelenium {
     private WebDriver driver;
 
     public void datosInicio(){
-        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         String baseURL = "https://www.facebook.com/";
         System.setProperty("webdriver.chrome.driver",xPath);
         driver = new ChromeDriver();

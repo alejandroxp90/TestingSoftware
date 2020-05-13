@@ -10,7 +10,7 @@ public class Ejercicio001 {
 
     public void cargaDatos(){
 
-        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         String baseURL = "http://demo.guru99.com/test/newtours/";
         System.setProperty("webdriver.chrome.driver", xPath);
         driver = new ChromeDriver();

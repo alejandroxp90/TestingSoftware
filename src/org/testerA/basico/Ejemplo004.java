@@ -11,7 +11,7 @@ public class Ejemplo004 {
         // TEST PARA UBICAR EL CAMPO DE TEXTO POR ID Y EL CAMPO CONTRASEÑA POR NOMBRES
         WebDriver driver;
         String baseURL = "http://demo.guru99.com/test/login.html";
-        String xpath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xpath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
 
         System.setProperty("webdriver.chrome.driver",xpath);
 

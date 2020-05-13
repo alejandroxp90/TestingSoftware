@@ -11,7 +11,7 @@ public class Ejemplo007 {
 
     public void datosInicio(){
 
-        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         String baseURL = "https://www.facebook.com/login/identify?ctx=recover";
         System.setProperty("webdriver.chrome.driver",xPath);
         driver = new ChromeDriver();

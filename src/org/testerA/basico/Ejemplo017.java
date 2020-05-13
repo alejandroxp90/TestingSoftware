@@ -16,7 +16,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class Ejemplo017 {
-    public String xPathChrome = System.clearProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    public String xPathChrome = System.clearProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     private WebDriver driver;
     //private String baseURL = "https://www.zlti.com/";
     private String baseURL = "http://www.domylab.com/home/";

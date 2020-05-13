@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ParameterByMethod {
     WebDriver driver;
-    String xChromePathDriver = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    String xChromePathDriver = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     String baseURL = "https://www.google.com.mx/";
 
     @BeforeTest

@@ -14,7 +14,7 @@ public class Ejercicio003 {
     public static void main(String[] args){
 
         WebDriver driver;
-        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         String btmBotonText = "";
         String baseURL = "http://demo.guru99.com/test/ajax.html";
         System.setProperty("webdriver.chrome.driver",xPath);

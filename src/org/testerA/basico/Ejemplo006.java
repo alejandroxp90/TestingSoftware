@@ -13,7 +13,7 @@ public class Ejemplo006 {
 
     public void startTest(){
 
-        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         System.setProperty("webdriver.chrome.driver",xPath);
         String baseURL = "http://demo.guru99.com/test/radio.html";
         driver = new ChromeDriver();

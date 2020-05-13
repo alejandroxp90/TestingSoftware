@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 public class Ejemplo016 {
 
-    String xChromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+    String xChromePath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
     String baseURL = "http://demo.guru99.com/test/tooltip.html";
     WebDriver driver;
 

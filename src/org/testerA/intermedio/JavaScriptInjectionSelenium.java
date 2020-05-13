@@ -61,7 +61,7 @@ public class JavaScriptInjectionSelenium {
 
     @BeforeTest
     public void launchBrowser(){
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver.exe" );
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe" );
         driver = new ChromeDriver();
         driver.get(baseURL);
         driver.manage().window().maximize();

@@ -13,7 +13,7 @@ public class Ejercicio002 {
 
     public void cargarDatos(){
 
-        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+        String xPath = System.getProperty("user.dir") + "\\drivers\\chromedriver80.exe";
         String baseURL = "https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt";
         System.setProperty("webdriver.chrome.driver", xPath);
         driver = new ChromeDriver();
