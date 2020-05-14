@@ -25,6 +25,7 @@ public class Ej0001 {
         Assert.assertEquals(actualResult,expectedResult,"The titles are not equals");
         Thread.sleep(5000);
         driver.close();
+        //driver.quit();
     }
     @Test (priority = 1, alwaysRun = false)
     public void miPrimerTest2() throws InterruptedException {
