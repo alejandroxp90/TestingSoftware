@@ -6,6 +6,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 public class CheckLinksTest {
@@ -27,8 +28,8 @@ public class CheckLinksTest {
 
         @Test
         public void checkingLinks(){
-           // assertFalse(page.checkingPageLinks(),"There are broken links");
-            assertTrue(page.checkingPageLinks(),"There are broken links");
+           assertFalse(page.checkingPageLinks(), "There are broken links");
+           //assertTrue(page.checkingPageLinks(),"There are broken links");
         }
 
         @AfterClass
